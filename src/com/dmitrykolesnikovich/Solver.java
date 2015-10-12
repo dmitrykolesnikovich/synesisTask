@@ -22,7 +22,7 @@ public class Solver {
   }
 
   private String solve1(List<List<Integer>> chains) {
-    String result = new String("UTF-8");
+    StringBuffer result = new StringBuffer();
     for (int i = 0; i < chains.size(); i++) {
       for (int j = i + 1; j < chains.size(); j++) {
         List<Integer> chain1 = chains.get(i);
@@ -30,16 +30,16 @@ public class Solver {
         int index = performSolve(chain1, chain2);
         String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
         if (index == NO_RESULT) {
-          result += chain1AndChain2 + ": нет пересечения" + "\n";
+          result.append(chain1AndChain2 + ": нет пересечения\n");
         } else if (index == CROSSES) {
-          result += chain1AndChain2 + ": две развилки" + "\n";
+          result.append(chain1AndChain2 + ": две развилки\n");
         } else {
           int value = chain1.get(index);
-          result += chain1AndChain2 + ": index = " + index + ", value = " + value + "\n";
+          result.append(chain1AndChain2 + ": index = " + index + ", value = " + value + "\n");
         }
       }
     }
-    return result;
+    return result.toString();
   }
 
   /**

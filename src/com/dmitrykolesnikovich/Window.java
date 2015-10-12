@@ -36,6 +36,9 @@ public class Window {
       @Override
       public void actionPerformed(ActionEvent e) {
         int row = table1.getSelectedRow();
+        if (row == -1) {
+          row = 0;
+        }
         model.removeRow(row);
         row = Math.min(row, table1.getRowCount() - 1);
         if (row != -1) {
@@ -72,6 +75,7 @@ public class Window {
         data[2][0] = "144, 145, 3, 4, 5";
         model = new DefaultTableModel(data, COLUMN_NAME);
         table1.setModel(model);
+        removeButton.setEnabled(true);
       }
     });
     infoButton.addActionListener(new ActionListener() {
