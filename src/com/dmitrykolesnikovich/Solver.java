@@ -55,7 +55,7 @@ public class Solver {
       Integer last = chain1.get(chain1.size() - 1);
       Integer commonFirst = common.get(0);
       Integer commonLast = common.get(common.size() - 1);
-      if (commonFirst != first && commonFirst != last && commonLast != first && commonLast != last) {
+      if (commonFirst != first && commonLast != last) {
         return CROSSES;
       } else {
         if (commonFirst == chain1.get(0)) {
