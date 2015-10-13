@@ -1,4 +1,4 @@
-package com.dmitrykolesnikovich;
+package com.dmitrykolesnikovich.synesisTask;
 
 import javax.swing.*;
 import java.awt.*;

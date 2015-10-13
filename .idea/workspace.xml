@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="Fix [2, 3, 5] and [1, 2, 3, 4] case.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/synesisTask_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/synesisTask_jar.xml" />
+    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="bug fixing">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\InfoDialog.form" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form" />
+      <change type="MOVED" beforePath="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\InfoDialog.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java" />
+      <change type="MOVED" beforePath="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\Solver.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java" />
+      <change type="MOVED" beforePath="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\VersionsDialog.form" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.form" />
+      <change type="MOVED" beforePath="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\VersionsDialog.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.java" />
+      <change type="MOVED" beforePath="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\Window.form" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form" />
+      <change type="MOVED" beforePath="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\Window.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java" />
     </list>
     <ignored path="synesisTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +34,21 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+              <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2809#2810#0" expanded="true" />
-                <element signature="e#2854#2855#0" expanded="true" />
+                <element signature="e#2776#2777#0" expanded="true" />
+                <element signature="e#2821#2822#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="VersionsDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
@@ -52,15 +57,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VersionsDialog.form" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form">
+      <file leaf-file-name="VersionsDialog.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
@@ -108,23 +113,23 @@
         </entry>
       </file>
       <file leaf-file-name="Window.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form">
+        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="InfoDialog.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.form">
+        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfoDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java">
+      <file leaf-file-name="InfoDialog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.52224827">
               <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding />
             </state>
@@ -160,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.java" />
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java" />
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" />
+        <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java" />
       </list>
     </option>
   </component>
@@ -279,7 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dmitrykolesnikovich" />
+              <option name="myItemId" value="synesisTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -301,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dmitrykolesnikovich" />
+              <option name="myItemId" value="synesisTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -323,7 +329,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dmitrykolesnikovich" />
+              <option name="myItemId" value="synesisTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,7 +351,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dmitrykolesnikovich" />
+              <option name="myItemId" value="synesisTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synesisTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synesisTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,7 +377,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="89" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="283" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
@@ -374,6 +394,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\synesisTask\src\com\dmitrykolesnikovich" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\synesisTask\src\com\dmitrykolesnikovich\synesisTask" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Window">
@@ -669,7 +692,7 @@
       <workItem from="1444655906760" duration="792000" />
       <workItem from="1444656769535" duration="1538000" />
       <workItem from="1444668406155" duration="95000" />
-      <workItem from="1444729348537" duration="1255000" />
+      <workItem from="1444729348537" duration="1546000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1444650937049</created>
@@ -701,15 +724,21 @@
       <option name="project" value="LOCAL" />
       <updated>1444730206855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bug fixing">
+      <created>1444730670458</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1444730670458</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8687000" />
+    <option name="totallyTimeSpent" value="8978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -722,7 +751,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2809524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23716012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -781,19 +810,20 @@
     <MESSAGE value="changes" />
     <MESSAGE value="fix" />
     <MESSAGE value="Fix [2, 3, 5] and [1, 2, 3, 4] case." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix [2, 3, 5] and [1, 2, 3, 4] case." />
+    <MESSAGE value="bug fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java</url>
-          <line>60</line>
+          <url>file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java</url>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java</url>
+          <url>file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -808,19 +838,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
@@ -864,17 +894,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
@@ -882,19 +912,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
@@ -938,17 +968,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
@@ -956,19 +986,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="38" />
@@ -1012,17 +1042,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
@@ -1030,19 +1060,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="89" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
@@ -1052,7 +1082,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1060,7 +1090,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1068,7 +1098,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="66" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
@@ -1131,15 +1161,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -1150,7 +1172,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -1161,19 +1183,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
@@ -1181,7 +1203,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
@@ -1191,9 +1213,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52224827">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

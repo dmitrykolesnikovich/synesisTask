@@ -1,4 +1,4 @@
-package com.dmitrykolesnikovich;
+package com.dmitrykolesnikovich.synesisTask;
 
 import java.util.ArrayList;
 import java.util.List;
