@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="bug fixing">
+    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -62,8 +62,8 @@
       <file leaf-file-name="Solver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83627206">
-              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.7574257">
+              <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,33 +76,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#20976#0" expanded="false" />
-                <element signature="e#4139#4140#0" expanded="false" />
-                <element signature="e#4164#4165#0" expanded="false" />
-                <element signature="e#4506#4507#0" expanded="false" />
-                <element signature="e#4537#4538#0" expanded="false" />
-                <element signature="e#5572#5573#0" expanded="false" />
-                <element signature="e#5600#5601#0" expanded="false" />
-                <element signature="e#5656#5657#0" expanded="false" />
-                <element signature="e#5691#5692#0" expanded="false" />
-                <element signature="e#5979#5980#0" expanded="false" />
-                <element signature="e#6013#6014#0" expanded="false" />
-                <element signature="e#6669#6670#0" expanded="false" />
-                <element signature="e#6716#6717#0" expanded="false" />
-                <element signature="e#6826#6827#0" expanded="false" />
-                <element signature="e#6877#6878#0" expanded="false" />
-                <element signature="e#13557#13558#0" expanded="false" />
-                <element signature="e#13603#13604#0" expanded="false" />
-                <element signature="e#13783#13784#0" expanded="false" />
-                <element signature="e#13833#13834#0" expanded="false" />
-                <element signature="e#14011#14012#0" expanded="false" />
-                <element signature="e#14061#14062#0" expanded="false" />
-                <element signature="e#18562#18563#0" expanded="false" />
-                <element signature="e#18614#18615#0" expanded="false" />
-                <element signature="e#18966#18967#0" expanded="false" />
-                <element signature="e#19022#19023#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -233,9 +207,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,6 +318,9 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -669,7 +643,9 @@
       <workItem from="1444655906760" duration="792000" />
       <workItem from="1444656769535" duration="1538000" />
       <workItem from="1444668406155" duration="95000" />
-      <workItem from="1444729348537" duration="3026000" />
+      <workItem from="1444729348537" duration="3145000" />
+      <workItem from="1444736141721" duration="581000" />
+      <workItem from="1444750141891" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1444650937049</created>
@@ -719,26 +695,29 @@
       <option name="project" value="LOCAL" />
       <updated>1444732202328</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bug fixing">
+      <created>1444732490713</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1444732490713</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10458000" />
+    <option name="totallyTimeSpent" value="11554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="96" y="96" width="1174" height="548" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2809524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23716012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -747,12 +726,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="96" y="96" width="1174" height="548" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2809524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -815,13 +797,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java</url>
-          <line>21</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java</url>
-          <line>51</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -841,6 +823,132 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#2543#2544#0" expanded="true" />
+            <element signature="e#2588#2589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#2543#2544#0" expanded="true" />
+            <element signature="e#2588#2589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -869,33 +977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20976#0" expanded="false" />
-            <element signature="e#4139#4140#0" expanded="false" />
-            <element signature="e#4164#4165#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#5572#5573#0" expanded="false" />
-            <element signature="e#5600#5601#0" expanded="false" />
-            <element signature="e#5656#5657#0" expanded="false" />
-            <element signature="e#5691#5692#0" expanded="false" />
-            <element signature="e#5979#5980#0" expanded="false" />
-            <element signature="e#6013#6014#0" expanded="false" />
-            <element signature="e#6669#6670#0" expanded="false" />
-            <element signature="e#6716#6717#0" expanded="false" />
-            <element signature="e#6826#6827#0" expanded="false" />
-            <element signature="e#6877#6878#0" expanded="false" />
-            <element signature="e#13557#13558#0" expanded="false" />
-            <element signature="e#13603#13604#0" expanded="false" />
-            <element signature="e#13783#13784#0" expanded="false" />
-            <element signature="e#13833#13834#0" expanded="false" />
-            <element signature="e#14011#14012#0" expanded="false" />
-            <element signature="e#14061#14062#0" expanded="false" />
-            <element signature="e#18562#18563#0" expanded="false" />
-            <element signature="e#18614#18615#0" expanded="false" />
-            <element signature="e#18966#18967#0" expanded="false" />
-            <element signature="e#19022#19023#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -945,33 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20976#0" expanded="false" />
-            <element signature="e#4139#4140#0" expanded="false" />
-            <element signature="e#4164#4165#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#5572#5573#0" expanded="false" />
-            <element signature="e#5600#5601#0" expanded="false" />
-            <element signature="e#5656#5657#0" expanded="false" />
-            <element signature="e#5691#5692#0" expanded="false" />
-            <element signature="e#5979#5980#0" expanded="false" />
-            <element signature="e#6013#6014#0" expanded="false" />
-            <element signature="e#6669#6670#0" expanded="false" />
-            <element signature="e#6716#6717#0" expanded="false" />
-            <element signature="e#6826#6827#0" expanded="false" />
-            <element signature="e#6877#6878#0" expanded="false" />
-            <element signature="e#13557#13558#0" expanded="false" />
-            <element signature="e#13603#13604#0" expanded="false" />
-            <element signature="e#13783#13784#0" expanded="false" />
-            <element signature="e#13833#13834#0" expanded="false" />
-            <element signature="e#14011#14012#0" expanded="false" />
-            <element signature="e#14061#14062#0" expanded="false" />
-            <element signature="e#18562#18563#0" expanded="false" />
-            <element signature="e#18614#18615#0" expanded="false" />
-            <element signature="e#18966#18967#0" expanded="false" />
-            <element signature="e#19022#19023#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,33 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20976#0" expanded="false" />
-            <element signature="e#4139#4140#0" expanded="false" />
-            <element signature="e#4164#4165#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#5572#5573#0" expanded="false" />
-            <element signature="e#5600#5601#0" expanded="false" />
-            <element signature="e#5656#5657#0" expanded="false" />
-            <element signature="e#5691#5692#0" expanded="false" />
-            <element signature="e#5979#5980#0" expanded="false" />
-            <element signature="e#6013#6014#0" expanded="false" />
-            <element signature="e#6669#6670#0" expanded="false" />
-            <element signature="e#6716#6717#0" expanded="false" />
-            <element signature="e#6826#6827#0" expanded="false" />
-            <element signature="e#6877#6878#0" expanded="false" />
-            <element signature="e#13557#13558#0" expanded="false" />
-            <element signature="e#13603#13604#0" expanded="false" />
-            <element signature="e#13783#13784#0" expanded="false" />
-            <element signature="e#13833#13834#0" expanded="false" />
-            <element signature="e#14011#14012#0" expanded="false" />
-            <element signature="e#14061#14062#0" expanded="false" />
-            <element signature="e#18562#18563#0" expanded="false" />
-            <element signature="e#18614#18615#0" expanded="false" />
-            <element signature="e#18966#18967#0" expanded="false" />
-            <element signature="e#19022#19023#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,56 +1172,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20976#0" expanded="false" />
-            <element signature="e#4139#4140#0" expanded="false" />
-            <element signature="e#4164#4165#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#5572#5573#0" expanded="false" />
-            <element signature="e#5600#5601#0" expanded="false" />
-            <element signature="e#5656#5657#0" expanded="false" />
-            <element signature="e#5691#5692#0" expanded="false" />
-            <element signature="e#5979#5980#0" expanded="false" />
-            <element signature="e#6013#6014#0" expanded="false" />
-            <element signature="e#6669#6670#0" expanded="false" />
-            <element signature="e#6716#6717#0" expanded="false" />
-            <element signature="e#6826#6827#0" expanded="false" />
-            <element signature="e#6877#6878#0" expanded="false" />
-            <element signature="e#13557#13558#0" expanded="false" />
-            <element signature="e#13603#13604#0" expanded="false" />
-            <element signature="e#13783#13784#0" expanded="false" />
-            <element signature="e#13833#13834#0" expanded="false" />
-            <element signature="e#14011#14012#0" expanded="false" />
-            <element signature="e#14061#14062#0" expanded="false" />
-            <element signature="e#18562#18563#0" expanded="false" />
-            <element signature="e#18614#18615#0" expanded="false" />
-            <element signature="e#18966#18967#0" expanded="false" />
-            <element signature="e#19022#19023#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/InfoDialog.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6391437">
           <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.form">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/VersionsDialog.java">
@@ -1219,7 +1223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48243558">
           <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,8 +1242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83627206">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.7574257">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
