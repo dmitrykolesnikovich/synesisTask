@@ -56,20 +56,19 @@ public class Solver {
     common.retainAll(chain2);
     if (common.isEmpty()) {
       return NO_RESULT;
-    } else {
-      Integer first1 = chain1.get(0);
-      Integer last1 = chain1.get(chain1.size() - 1);
-      Integer first2 = chain2.get(0);
-      Integer last2 = chain2.get(chain2.size() - 1);
-      if (first1 != first2 && first1 != last2 && last1 != first2 && last1 != last2) {
-        return TWO_CROSSES;
-      }
-      if (first2 == chain1.get(0)) {
-        return common.size() - 1;
-      } else {
-        return chain1.size() - common.size();
-      }
+    }
 
+    Integer first1 = chain1.get(0);
+    Integer last1 = chain1.get(chain1.size() - 1);
+    Integer first2 = chain2.get(0);
+    Integer last2 = chain2.get(chain2.size() - 1);
+    if (first1 != first2 && first1 != last2 && last1 != first2 && last1 != last2) {
+      return TWO_CROSSES;
+    }
+    if (first2 == chain1.get(0)) {
+      return common.size() - 1;
+    } else {
+      return chain1.size() - common.size();
     }
 
   }

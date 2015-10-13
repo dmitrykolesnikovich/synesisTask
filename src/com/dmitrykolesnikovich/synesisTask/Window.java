@@ -5,6 +5,8 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,17 +37,7 @@ public class Window {
     removeButton.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e) {
-        int row = table1.getSelectedRow();
-        if (row == -1) {
-          row = 0;
-        }
-        model.removeRow(row);
-        row = Math.min(row, table1.getRowCount() - 1);
-        if (row != -1) {
-          table1.setRowSelectionInterval(row, row);
-        } else {
-          removeButton.setEnabled(false);
-        }
+        removSelectedRows();
       }
     });
 
@@ -92,6 +84,19 @@ public class Window {
     });
   }
 
+  private void removSelectedRows() {
+    int[] rows = table1.getSelectedRows();
+    if (rows.length != 0) {
+      int firstRow = rows[0];
+      for (int row : rows) {
+        model.removeRow(firstRow);
+      }
+    }
+    if (model.getRowCount() == 0) {
+      removeButton.setEnabled(false);
+    }
+  }
+
 
   public static void main(String[] args) {
     JFrame frame = new JFrame("Synesis Task - Dmitry Kolesnikovich (version 2)");
@@ -109,6 +114,14 @@ public class Window {
   private void createUIComponents() {
     model = new DefaultTableModel(new Object[][]{}, COLUMN_NAME);
     table1 = new JTable(model);
+    table1.addKeyListener(new KeyAdapter() {
+      @Override
+      public void keyPressed(KeyEvent e) {
+        if (e.getKeyCode() == KeyEvent.VK_DELETE) {
+          removSelectedRows();
+        }
+      }
+    });
   }
 
 }
