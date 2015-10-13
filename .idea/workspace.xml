@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="">
+    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="refactoring">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/IndexFinder.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/IndexFinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="IndexFinder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/IndexFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47775176">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37470725">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -667,7 +667,7 @@
       <workItem from="1444729348537" duration="3145000" />
       <workItem from="1444736141721" duration="581000" />
       <workItem from="1444750141891" duration="2105000" />
-      <workItem from="1444753892256" duration="534000" />
+      <workItem from="1444753892256" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1444650937049</created>
@@ -765,11 +765,17 @@
       <option name="project" value="LOCAL" />
       <updated>1444754126985</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="refactoring">
+      <created>1444754461098</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1444754461098</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13797000" />
+    <option name="totallyTimeSpent" value="13954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
@@ -1279,8 +1285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/IndexFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47775176">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37470725">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

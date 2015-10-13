@@ -155,9 +155,9 @@ public class Window {
         String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
         if (index == IndexFinder.RESULT_NOTHING_IN_COMMON) {
           result.append(chain1AndChain2 + ": нигде не пересекаются\n");
-        } else if (index == IndexFinder.RESULT_TWO_CROSSES) {
+        } else if (index == IndexFinder.RESULT_TWO_FORKS) {
           result.append(chain1AndChain2 + ": две развилки\n");
-        } else if (index == IndexFinder.RESULT_NO_CROSSES) {
+        } else if (index == IndexFinder.RESULT_NO_FORKS) {
           result.append(chain1AndChain2 + ": нет развилок\n");
         } else {
           int value = chain1.get(index);
