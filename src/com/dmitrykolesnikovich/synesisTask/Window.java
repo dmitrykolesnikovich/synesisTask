@@ -153,11 +153,11 @@ public class Window {
         List<Integer> chain2 = chains.get(j);
         int index = IndexFinder.findIndex(chain1, chain2);
         String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
-        if (index == IndexFinder.NOTHING_IN_COMMON) {
+        if (index == IndexFinder.RESULT_NOTHING_IN_COMMON) {
           result.append(chain1AndChain2 + ": нигде не пересекаются\n");
-        } else if (index == IndexFinder.TWO_CROSSES) {
+        } else if (index == IndexFinder.RESULT_TWO_CROSSES) {
           result.append(chain1AndChain2 + ": две развилки\n");
-        } else if (index == IndexFinder.NO_CROSSES) {
+        } else if (index == IndexFinder.RESULT_NO_CROSSES) {
           result.append(chain1AndChain2 + ": нет развилок\n");
         } else {
           int value = chain1.get(index);
