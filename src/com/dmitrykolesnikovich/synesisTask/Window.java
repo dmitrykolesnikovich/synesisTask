@@ -138,8 +138,33 @@ public class Window {
       chains.add(chain);
     }
     StringBuffer result = new StringBuffer();
-    new Solver().solve(chains, result);
+    solve(chains, result);
     return result.toString();
+  }
+
+  /**
+   * @param result string representation of algorithm result.
+   *               See more https://www.dropbox.com/s/iazj2w79v2co67y/result.png
+   */
+  public void solve(List<List<Integer>> chains, StringBuffer result) {
+    for (int i = 0; i < chains.size(); i++) {
+      for (int j = i + 1; j < chains.size(); j++) {
+        List<Integer> chain1 = chains.get(i);
+        List<Integer> chain2 = chains.get(j);
+        int index = IndexFinder.findIndex(chain1, chain2);
+        String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
+        if (index == IndexFinder.NOTHING_IN_COMMON) {
+          result.append(chain1AndChain2 + ": нигде не пересекаются\n");
+        } else if (index == IndexFinder.TWO_CROSSES) {
+          result.append(chain1AndChain2 + ": две развилки\n");
+        } else if (index == IndexFinder.NO_CROSSES) {
+          result.append(chain1AndChain2 + ": нет развилок\n");
+        } else {
+          int value = chain1.get(index);
+          result.append(chain1AndChain2 + ": index = " + index + ", value = " + value + "\n");
+        }
+      }
+    }
   }
 
 }
