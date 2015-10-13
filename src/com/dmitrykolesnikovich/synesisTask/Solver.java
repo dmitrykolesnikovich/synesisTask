@@ -43,7 +43,7 @@ public class Solver {
     }
 
     List<Integer> common = new ArrayList<>(chain1);
-    common.retainAll(chain2); // intersection https://en.wikipedia.org/wiki/Intersection_(set_theory)
+    common.retainAll(chain2); // intersection. See more https://en.wikipedia.org/wiki/Intersection_(set_theory)
 
     if (common.isEmpty()) {
       return NO_CROSSES;

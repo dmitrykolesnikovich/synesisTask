@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Window.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="synesisTask.iws" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="Solver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.31381732">
-              <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+            <state vertical-scroll-proportion="1.4379392">
+              <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -690,7 +689,7 @@
       <workItem from="1444668406155" duration="95000" />
       <workItem from="1444729348537" duration="3145000" />
       <workItem from="1444736141721" duration="581000" />
-      <workItem from="1444750141891" duration="1313000" />
+      <workItem from="1444750141891" duration="1339000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1444650937049</created>
@@ -764,11 +763,17 @@
       <option name="project" value="LOCAL" />
       <updated>1444750773524</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactoring">
+      <created>1444751490747</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1444751490748</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12471000" />
+    <option name="totallyTimeSpent" value="12497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
@@ -1427,8 +1432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/synesisTask/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31381732">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+        <state vertical-scroll-proportion="1.4379392">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
