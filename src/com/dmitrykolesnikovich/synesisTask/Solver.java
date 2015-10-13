@@ -56,9 +56,8 @@ public class Solver {
       return THE_SAME;
     }
 
-    // common = intersection of chain1 and chain2
     List<Integer> common = new ArrayList<>(chain1);
-    common.retainAll(chain2);
+    common.retainAll(chain2); // intersection https://en.wikipedia.org/wiki/Intersection_(set_theory)
 
     if (common.isEmpty()) {
       return NO_CROSSES;
@@ -68,6 +67,7 @@ public class Solver {
     int last1 = chain1.get(chain1.size() - 1);
     int first2 = chain2.get(0);
     int last2 = chain2.get(chain2.size() - 1);
+
     if (first1 != first2 && first1 != last2 && last1 != first2 && last1 != last2) {
       return TWO_CROSSES;
     }
