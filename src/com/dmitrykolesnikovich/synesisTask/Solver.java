@@ -10,48 +10,34 @@ public class Solver {
   private static final int THE_SAME = -3;
 
   /**
-   * @return string representation of algorithm result
+   * @param result string representation of algorithm result.
+   *               See more https://www.dropbox.com/s/iazj2w79v2co67y/result.png
    */
-  public String solve(List<String> rows) {
-    List<List<Integer>> chains = new ArrayList<>();
-    for (String row : rows) {
-      row = row.replaceAll(" ", "");
-      List<Integer> chain = new ArrayList<>();
-      for (String element : row.split(",")) {
-        chain.add(Integer.valueOf(element));
-      }
-      chains.add(chain);
-    }
-    return performSolve(chains);
-  }
-
-  private String performSolve(List<List<Integer>> chains) {
-    StringBuffer result = new StringBuffer();
+  public void solve(List<List<Integer>> chains, StringBuffer result) {
     for (int i = 0; i < chains.size(); i++) {
       for (int j = i + 1; j < chains.size(); j++) {
         List<Integer> chain1 = chains.get(i);
         List<Integer> chain2 = chains.get(j);
-        int crossIndex = findCrossIndex(chain1, chain2);
+        int index = findIndex(chain1, chain2);
         String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
-        if (crossIndex == NO_CROSSES) {
+        if (index == NO_CROSSES) {
           result.append(chain1AndChain2 + ": нигде не пересекаются\n");
-        } else if (crossIndex == TWO_CROSSES) {
+        } else if (index == TWO_CROSSES) {
           result.append(chain1AndChain2 + ": две развилки\n");
-        } else if (crossIndex == THE_SAME) {
+        } else if (index == THE_SAME) {
           result.append(chain1AndChain2 + ": нет развилок\n");
         } else {
-          int value = chain1.get(crossIndex);
-          result.append(chain1AndChain2 + ": index = " + crossIndex + ", value = " + value + "\n");
+          int value = chain1.get(index);
+          result.append(chain1AndChain2 + ": index = " + index + ", value = " + value + "\n");
         }
       }
     }
-    return result.toString();
   }
 
   /*
-  * @return index of last common element between chains relatively to chain1
+  * @return index of last common element between chains relatively to first one
   */
-  private int findCrossIndex(List<Integer> chain1, List<Integer> chain2) {
+  private int findIndex(List<Integer> chain1, List<Integer> chain2) {
     if (chain1.containsAll(chain2) || chain2.containsAll(chain1)) {
       return THE_SAME;
     }

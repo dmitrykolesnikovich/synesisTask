@@ -50,7 +50,7 @@ public class Window {
           rows.add(rowValue);
         }
         try {
-          String result = new Solver().solve(rows);
+          String result = solve(rows);
           textArea1.setText(result);
         } catch (Throwable e1) {
           textArea1.setText("Error");
@@ -122,6 +122,24 @@ public class Window {
         }
       }
     });
+  }
+
+  /**
+   * @return string representation of algorithm result
+   */
+  public String solve(List<String> rows) {
+    List<List<Integer>> chains = new ArrayList<>();
+    for (String row : rows) {
+      row = row.replaceAll(" ", "");
+      List<Integer> chain = new ArrayList<>();
+      for (String element : row.split(",")) {
+        chain.add(Integer.valueOf(element));
+      }
+      chains.add(chain);
+    }
+    StringBuffer result = new StringBuffer();
+    new Solver().solve(chains, result);
+    return result.toString();
   }
 
 }
