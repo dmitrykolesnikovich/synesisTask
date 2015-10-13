@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Solver {
 
-  private static final int NO_CROSSES = -1;
+  private static final int NOTHING_IN_COMMON = -1;
   private static final int TWO_CROSSES = -2;
-  private static final int THE_SAME = -3;
+  private static final int NO_CROSSES = -3;
 
   /**
    * @param result string representation of algorithm result.
@@ -20,11 +20,11 @@ public class Solver {
         List<Integer> chain2 = chains.get(j);
         int index = findIndex(chain1, chain2);
         String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
-        if (index == NO_CROSSES) {
+        if (index == NOTHING_IN_COMMON) {
           result.append(chain1AndChain2 + ": нигде не пересекаются\n");
         } else if (index == TWO_CROSSES) {
           result.append(chain1AndChain2 + ": две развилки\n");
-        } else if (index == THE_SAME) {
+        } else if (index == NO_CROSSES) {
           result.append(chain1AndChain2 + ": нет развилок\n");
         } else {
           int value = chain1.get(index);
@@ -39,14 +39,14 @@ public class Solver {
   */
   private int findIndex(List<Integer> chain1, List<Integer> chain2) {
     if (chain1.containsAll(chain2) || chain2.containsAll(chain1)) {
-      return THE_SAME;
+      return NO_CROSSES;
     }
 
     List<Integer> common = new ArrayList<>(chain1);
     common.retainAll(chain2); // intersection. See more https://en.wikipedia.org/wiki/Intersection_(set_theory)
 
     if (common.isEmpty()) {
-      return NO_CROSSES;
+      return NOTHING_IN_COMMON;
     }
 
     int first1 = chain1.get(0);
