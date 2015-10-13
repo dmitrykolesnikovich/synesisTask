@@ -10,7 +10,7 @@ public class Solver {
   private static final int THE_SAME = -3;
 
   /**
-   * @return string representation of algorithm result to output it on console
+   * @return string representation of algorithm result
    */
   public String solve(List<String> rows) {
     List<List<Integer>> chains = new ArrayList<>();
@@ -34,7 +34,7 @@ public class Solver {
         int crossIndex = findCrossIndex(chain1, chain2);
         String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
         if (crossIndex == NO_CROSSES) {
-          result.append(chain1AndChain2 + ": нет пересечения\n");
+          result.append(chain1AndChain2 + ": нигде не пересекаются\n");
         } else if (crossIndex == TWO_CROSSES) {
           result.append(chain1AndChain2 + ": две развилки\n");
         } else if (crossIndex == THE_SAME) {
