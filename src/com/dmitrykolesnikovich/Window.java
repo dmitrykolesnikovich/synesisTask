@@ -20,6 +20,7 @@ public class Window {
   private JButton solveButton;
   private JButton generateTestDataButton;
   private JButton infoButton;
+  private JButton versionsButton;
   private DefaultTableModel model;
 
   public Window() {
@@ -84,11 +85,17 @@ public class Window {
         InfoDialog.showDialog();
       }
     });
+    versionsButton.addActionListener(new ActionListener() {
+      @Override
+      public void actionPerformed(ActionEvent e) {
+        VersionsDialog.showDialog();
+      }
+    });
   }
 
 
   public static void main(String[] args) {
-    JFrame frame = new JFrame("Synesis Task - Dmitry Kolesnikovich");
+    JFrame frame = new JFrame("Synesis Task - Dmitry Kolesnikovich (version 2)");
     frame.setContentPane(new Window().rotComponent);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
