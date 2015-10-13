@@ -7,9 +7,9 @@ import java.util.List;
 
 public class IndexFinder {
 
-  public static final int RESULT_NOTHING_IN_COMMON = -1;
-  public static final int RESULT_TWO_FORKS = -2;
-  public static final int RESULT_NO_FORKS = -3;
+  public static final int RESULT_NOTHING_IN_COMMON = -1; // нигде не пересекаются
+  public static final int RESULT_TWO_FORKS = -2; // две развилки
+  public static final int RESULT_NO_FORKS = -3; // нет развилок
 
   /*
   * @return index of last common element between chains relatively to first one
