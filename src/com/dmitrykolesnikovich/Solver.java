@@ -6,7 +6,8 @@ import java.util.List;
 public class Solver {
 
   private static final int NO_RESULT = -1;
-  private static final int CROSSES = -2;
+  private static final int TWO_CROSSES = -2;
+  private static final int NO_CROSSES = -3;
 
   public String solve(List<String> rows) {
     List<List<Integer>> chains = new ArrayList<>();
@@ -31,8 +32,10 @@ public class Solver {
         String chain1AndChain2 = chain1.toString() + " and " + chain2.toString();
         if (index == NO_RESULT) {
           result.append(chain1AndChain2 + ": нет пересечения\n");
-        } else if (index == CROSSES) {
+        } else if (index == TWO_CROSSES) {
           result.append(chain1AndChain2 + ": две развилки\n");
+        } else if (index == NO_CROSSES) {
+          result.append(chain1AndChain2 + ": нет развилок\n");
         } else {
           int value = chain1.get(index);
           result.append(chain1AndChain2 + ": index = " + index + ", value = " + value + "\n");
@@ -46,6 +49,9 @@ public class Solver {
    * @return common element index relatively to chain1 or -1 if nothing in common
    */
   private int performSolve(List<Integer> chain1, List<Integer> chain2) {
+    if (chain1.containsAll(chain2) || chain2.containsAll(chain1)) {
+      return NO_CROSSES;
+    }
     List<Integer> common = new ArrayList<>(chain1);
     common.retainAll(chain2);
     if (common.isEmpty()) {
@@ -56,14 +62,14 @@ public class Solver {
       Integer first2 = chain2.get(0);
       Integer last2 = chain2.get(chain2.size() - 1);
       if (first1 != first2 && first1 != last2 && last1 != first2 && last1 != last2) {
-        return CROSSES;
-      } else {
-        if (first2 == chain1.get(0)) {
-          return common.size() - 1;
-        } else {
-          return chain1.size() - common.size();
-        }
+        return TWO_CROSSES;
       }
+      if (first2 == chain1.get(0)) {
+        return common.size() - 1;
+      } else {
+        return chain1.size() - common.size();
+      }
+
     }
 
   }

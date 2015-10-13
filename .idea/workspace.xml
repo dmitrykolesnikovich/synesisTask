@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java" />
+    <list default="true" id="77234749-8795-4015-ac20-fb6e46af9346" name="Default" comment="Fix [2, 3, 5] and [1, 2, 3, 4] case.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" afterPath="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/synesisTask_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/synesisTask_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="synesisTask.iws" />
@@ -43,17 +42,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VersionsDialog.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VersionsDialog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48243558">
+            <state vertical-scroll-proportion="0.0">
               <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VersionsDialog.form" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VersionsDialog.form" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
@@ -64,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,6 +141,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -155,11 +155,11 @@
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Main.java" />
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java" />
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.form" />
-        <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java" />
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.form" />
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Window.java" />
-        <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" />
         <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.java" />
+        <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java" />
+        <option value="$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form" />
       </list>
     </option>
   </component>
@@ -669,7 +669,7 @@
       <workItem from="1444655906760" duration="792000" />
       <workItem from="1444656769535" duration="1538000" />
       <workItem from="1444668406155" duration="95000" />
-      <workItem from="1444729348537" duration="802000" />
+      <workItem from="1444729348537" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1444650937049</created>
@@ -695,11 +695,17 @@
       <option name="project" value="LOCAL" />
       <updated>1444729736158</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix [2, 3, 5] and [1, 2, 3, 4] case.">
+      <created>1444730206855</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1444730206855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8234000" />
+    <option name="totallyTimeSpent" value="8687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
@@ -788,7 +794,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -1125,16 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/InfoDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1177,17 +1173,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48243558">
+        <state vertical-scroll-proportion="0.0">
           <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dmitrykolesnikovich/VersionsDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>
